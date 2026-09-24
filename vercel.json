@@ -33,38 +33,38 @@
     {
       "source": "/en/services/dryer-repair",
       "destination": "/en/services/dryer-repair.html"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/services",
+      "destination": "/en/services",
+      "permanent": false
     },
     {
-      "source": "/ar/services",
-      "destination": "/ar/services.html"
+      "source": "/gallery",
+      "destination": "/en/gallery",
+      "permanent": false
     },
     {
-      "source": "/ar/gallery",
-      "destination": "/ar/gallery.html"
+      "source": "/about",
+      "destination": "/en/about",
+      "permanent": false
     },
     {
-      "source": "/ar/about",
-      "destination": "/ar/about.html"
+      "source": "/blog",
+      "destination": "/en/blog",
+      "permanent": false
     },
     {
-      "source": "/ar/blog",
-      "destination": "/ar/blog.html"
+      "source": "/contact",
+      "destination": "/en/contact",
+      "permanent": false
     },
     {
-      "source": "/ar/contact",
-      "destination": "/ar/contact.html"
-    },
-    {
-      "source": "/ar/services/washing-machine-repair",
-      "destination": "/ar/services/washing-machine-repair.html"
-    },
-    {
-      "source": "/ar/services/dishwasher-repair",
-      "destination": "/ar/services/dishwasher-repair.html"
-    },
-    {
-      "source": "/ar/services/dryer-repair",
-      "destination": "/ar/services/dryer-repair.html"
+      "source": "/services/:slug",
+      "destination": "/en/services/:slug",
+      "permanent": false
     }
   ]
 }

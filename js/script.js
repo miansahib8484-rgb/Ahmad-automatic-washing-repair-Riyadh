@@ -94,12 +94,15 @@ function initRevealAnimations() {
 
 /* ---------------- Active nav link ---------------- */
 function initActiveNav() {
-  const current = (location.pathname.split("/").pop() || "index.html").toLowerCase();
+  function normalize(p) {
+    return p.replace(/\/index\.html$/i, "").replace(/\.html$/i, "").replace(/\/+$/, "").toLowerCase() || "/";
+  }
+  const current = normalize(location.pathname);
   document.querySelectorAll(".nav-links a, .mobile-panel a").forEach(function (a) {
-    const href = (a.getAttribute("href") || "").toLowerCase();
-    if (href && current !== "" && href.indexOf(current) !== -1) {
-      a.classList.add("active");
-    }
+    const href = a.getAttribute("href");
+    if (!href || /^(tel:|mailto:|#|https?:)/i.test(href)) return;
+    const target = normalize(new URL(href, location.href).pathname);
+    if (target === current) a.classList.add("active");
   });
 }
 
