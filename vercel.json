@@ -1,14 +1,26 @@
-{
-  "cleanUrls": true,
-  "trailingSlash": false,
-  "rewrites": [
-    {
-      "source": "/en/:path*",
-      "destination": "/en/:path*"
-    },
-    {
-      "source": "/ar/:path*",
-      "destination": "/ar/:path*"
-    }
-  ]
-}
+(
+echo {
+echo   "cleanUrls": true,
+echo   "trailingSlash": false,
+echo   "rewrites": [
+echo     { "source": "/en", "destination": "/en/index.html" },
+echo     { "source": "/en/about", "destination": "/en/about.html" },
+echo     { "source": "/en/services", "destination": "/en/services.html" },
+echo     { "source": "/en/gallery", "destination": "/en/gallery.html" },
+echo     { "source": "/en/blog", "destination": "/en/blog.html" },
+echo     { "source": "/en/contact", "destination": "/en/contact.html" },
+echo     { "source": "/en/services/washing-machine-repair", "destination": "/en/services/washing-machine-repair.html" },
+echo     { "source": "/en/services/dishwasher-repair", "destination": "/en/services/dishwasher-repair.html" },
+echo     { "source": "/en/services/dryer-repair", "destination": "/en/services/dryer-repair.html" },
+echo     { "source": "/ar", "destination": "/ar/index.html" },
+echo     { "source": "/ar/about", "destination": "/ar/about.html" },
+echo     { "source": "/ar/services", "destination": "/ar/services.html" },
+echo     { "source": "/ar/gallery", "destination": "/ar/gallery.html" },
+echo     { "source": "/ar/blog", "destination": "/ar/blog.html" },
+echo     { "source": "/ar/contact", "destination": "/ar/contact.html" },
+echo     { "source": "/ar/services/washing-machine-repair", "destination": "/ar/services/washing-machine-repair.html" },
+echo     { "source": "/ar/services/dishwasher-repair", "destination": "/ar/services/dishwasher-repair.html" },
+echo     { "source": "/ar/services/dryer-repair", "destination": "/ar/services/dryer-repair.html" }
+echo   ]
+echo }
+) > vercel.json
