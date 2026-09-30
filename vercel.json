@@ -33,6 +33,38 @@
     {
       "source": "/en/services/dryer-repair",
       "destination": "/en/services/dryer-repair.html"
+    },
+    {
+      "source": "/ar/services",
+      "destination": "/ar/services.html"
+    },
+    {
+      "source": "/ar/gallery",
+      "destination": "/ar/gallery.html"
+    },
+    {
+      "source": "/ar/about",
+      "destination": "/ar/about.html"
+    },
+    {
+      "source": "/ar/blog",
+      "destination": "/ar/blog.html"
+    },
+    {
+      "source": "/ar/contact",
+      "destination": "/ar/contact.html"
+    },
+    {
+      "source": "/ar/services/washing-machine-repair",
+      "destination": "/ar/services/washing-machine-repair.html"
+    },
+    {
+      "source": "/ar/services/dishwasher-repair",
+      "destination": "/ar/services/dishwasher-repair.html"
+    },
+    {
+      "source": "/ar/services/dryer-repair",
+      "destination": "/ar/services/dryer-repair.html"
     }
   ],
   "redirects": [

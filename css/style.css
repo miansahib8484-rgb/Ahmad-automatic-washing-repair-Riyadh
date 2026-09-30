@@ -275,6 +275,11 @@ html[dir="rtl"] .hero-float{ transform:translateX(50%); }
 .service-card .ico svg{ width:32px; height:32px; }
 .service-card h3{ margin-bottom:8px; }
 .service-card .card-actions{ display:flex; gap:10px; margin-top:22px; flex-wrap:wrap; }
+/* Photo variant — used on the home page service cards */
+.service-card.has-photo{ padding:0 0 28px; overflow:hidden; }
+.service-card-img{ width:100%; height:210px; object-fit:cover; display:block; }
+.service-card-body{ padding:24px 28px 0; }
+@media (max-width: 480px){ .service-card-img{ height:180px; } }
 @media (max-width: 991px){ .services-grid{ grid-template-columns:1fr 1fr; } }
 @media (max-width: 620px){ .services-grid{ grid-template-columns:1fr; } }
 
@@ -345,6 +350,8 @@ html[dir="rtl"] .hero-float{ transform:translateX(50%); }
 }
 .brand-chip:hover{ transform: translateY(-3px); box-shadow: var(--shadow); border-color: var(--teal); }
 .brand-chip i{ color: var(--teal-dark); }
+.brand-chip img{ height:26px; width:auto; max-width:88px; object-fit:contain; display:block; }
+@media (max-width: 480px){ .brand-chip img{ height:22px; max-width:72px; } }
 
 /* ---------- FAQ ---------- */
 .faq-list{ max-width:800px; margin:0 auto; }
@@ -450,6 +457,11 @@ footer{ background: var(--navy-dark); color: rgba(255,255,255,0.7); padding:64px
 .error-code-table th{ background: var(--gray-50); font-weight:700; color: var(--navy); }
 .error-code-table td:first-child{ font-weight:700; color: var(--teal-dark); white-space:nowrap; }
 .error-code-note{ font-size:0.85rem; color: var(--text-soft); margin-top:10px; }
+/* ---------- Cause Q&A block ---------- */
+.cause-qa{ background: var(--gray-50); border-radius: var(--radius); padding:26px 28px; margin-top:14px; }
+.cause-qa h3{ font-size:1.05rem; color: var(--navy); margin:0 0 8px; }
+.cause-qa h3:not(:first-child){ margin-top:20px; }
+.cause-qa p{ margin:0; color: var(--text); }
 .problem-list, .repair-list{ display:grid; grid-template-columns:1fr 1fr; gap:12px; }
 .problem-list li, .repair-list li{ display:flex; gap:10px; align-items:flex-start; background: var(--gray-50); border-radius: var(--radius-sm); padding:12px 14px; font-size:0.94rem; color: var(--text); }
 .problem-list li svg, .repair-list li svg{ color: var(--teal-dark); flex-shrink:0; margin-top:2px; width:18px; height:18px; }

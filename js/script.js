@@ -107,13 +107,49 @@ function initActiveNav() {
 }
 
 /* ---------------- Contact form ---------------- */
+/* No backend on this static site, so the request is sent to the
+   business WhatsApp as a pre-filled message — the same number used
+   everywhere else on the site — instead of silently disappearing. */
 function initContactForm() {
   const form = document.querySelector("#repairForm");
   if (!form) return;
+  const isArabic = document.documentElement.lang === "ar";
+
   form.addEventListener("submit", function (e) {
     e.preventDefault();
+
+    const data = new FormData(form);
+    const name = (data.get("fullName") || "").trim();
+    const phone = (data.get("phone") || "").trim();
+    const appliance = (data.get("applianceType") || "").trim();
+    const service = (data.get("serviceType") || "").trim();
+    const message = (data.get("message") || "").trim();
+
+    const lines = isArabic
+      ? [
+          "طلب صيانة جديد من الموقع:",
+          "الاسم: " + name,
+          "رقم الهاتف: " + phone,
+          appliance ? "نوع الجهاز: " + appliance : null,
+          "الخدمة المطلوبة: " + service,
+          message ? "الرسالة: " + message : null
+        ]
+      : [
+          "New repair request from the website:",
+          "Name: " + name,
+          "Phone: " + phone,
+          appliance ? "Appliance: " + appliance : null,
+          "Service needed: " + service,
+          message ? "Message: " + message : null
+        ];
+
+    const text = lines.filter(Boolean).join("\n");
+    const waNumber = SITE_CONTACT.whatsapp.replace(/[^0-9]/g, "");
+    const waUrl = "https://wa.me/" + waNumber + "?text=" + encodeURIComponent(text);
+
     const successBox = document.querySelector("#formSuccess");
     if (successBox) successBox.style.display = "block";
+    window.open(waUrl, "_blank", "noopener");
     form.reset();
   });
 }
