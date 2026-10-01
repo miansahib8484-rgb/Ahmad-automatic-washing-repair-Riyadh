@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.ahmadwashingrepair.com/sitemap.xml
+Sitemap: https://www.ahmadwashingrepairriyadh.com/sitemap.xml
