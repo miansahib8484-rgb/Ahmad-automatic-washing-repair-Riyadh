@@ -539,3 +539,32 @@ html[dir="rtl"] .lang-switch{ direction: ltr; }
 .contact-info-card h2{ color:#fff; font-size:1.3rem; }
 .trust-item h2{ margin:0 0 2px; font-size:1rem; }
 .service-card h2{ margin-bottom:8px; font-size:1.3rem; }
+
+/* ---- trust marquee (continuous strip under the hero) ---- */
+.trust-marquee{ background: var(--navy); color:#fff; overflow:hidden; border-bottom:3px solid var(--teal); direction:ltr; }
+.tm-track{ display:flex; width:max-content; animation: tm-scroll 48s linear infinite; }
+.tm-group{ display:flex; flex-shrink:0; }
+.tm-item{ display:flex; align-items:center; gap:10px; padding:15px 34px; font-size:0.92rem; font-weight:500; white-space:nowrap; border-inline-end:1px solid rgba(255,255,255,0.14); }
+.tm-item i{ color: var(--teal); font-size:1.15rem; }
+.trust-marquee:hover .tm-track{ animation-play-state: paused; }
+html[dir="rtl"] .tm-item{ direction:rtl; font-family: var(--font-ar); }
+@keyframes tm-scroll{ from{ transform: translateX(0); } to{ transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce){
+  .tm-track{ animation:none; width:auto; flex-wrap:wrap; justify-content:center; }
+  .tm-group[aria-hidden="true"]{ display:none; }
+  .tm-group{ flex-wrap:wrap; justify-content:center; }
+}
+
+/* ---- How Customers Find Us: keyword pills ---- */
+.find-us{ padding:56px 0; background: var(--gray-50); }
+.pill-cloud{ display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin-top:22px; }
+.pill{ display:inline-block; padding:8px 16px; border-radius:999px; background:#fff; border:1px solid var(--gray-200); color: var(--navy-soft); font-size:0.88rem; font-weight:500; box-shadow:0 1px 2px rgba(10,33,56,0.05); }
+
+/* ---- home: four guide cards ---- */
+.home-guides{ padding:56px 0; }
+.home-guide-grid{ grid-template-columns: repeat(4, 1fr); gap:22px; }
+.home-guides .blog-body h3{ font-size:1.02rem; line-height:1.35; margin:6px 0 8px; }
+.home-guides .blog-body h3 a{ color:inherit; text-decoration:none; }
+.home-guides .blog-body p{ font-size:0.9rem; margin:0 0 10px; }
+@media (max-width: 1000px){ .home-guide-grid{ grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px){ .home-guide-grid{ grid-template-columns: 1fr; } }
