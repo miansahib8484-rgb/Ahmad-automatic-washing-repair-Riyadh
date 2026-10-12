@@ -153,3 +153,10 @@ function initContactForm() {
     form.reset();
   });
 }
+
+/* ---------------- Click tracking (active once GA4/gtag is installed) ---------------- */
+document.addEventListener("click", function (e) {
+  var a = e.target.closest ? e.target.closest("[data-call],[data-whatsapp]") : null;
+  if (!a || typeof window.gtag !== "function") return;
+  window.gtag("event", a.hasAttribute("data-call") ? "click_call" : "click_whatsapp", { page_path: location.pathname });
+});

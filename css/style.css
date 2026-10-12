@@ -38,7 +38,7 @@ body{
 }
 html[lang="ar"] body{ font-family: var(--font-ar); }
 
-img{ max-width:100%; display:block; }
+img{ max-width:100%; height:auto; display:block; }
 a{ text-decoration:none; color:inherit; }
 ul{ margin:0; padding:0; list-style:none; }
 button{ font-family:inherit; cursor:pointer; }
@@ -524,3 +524,18 @@ html[dir="rtl"] .lang-switch{ direction: ltr; }
 
 /* Utility for logical inset properties fallback */
 .gallery-item .tag{ inset-inline-start:12px; }
+
+/* h4 -> h3 (heading hierarchy fix): mirrors the former h4 rules */
+.trust-item h3{ margin:0 0 2px; font-size:1rem; }
+.step-card h3{ color:#fff; margin-bottom:6px; font-size:1.02rem; }
+.faq-q h3{ margin:0; font-size:1.02rem; }
+.footer-grid h3{ color:#fff; font-size:1rem; margin-bottom:16px; }
+.sidebar-card h3{ margin-bottom:14px; }
+.why-card h3,.process-steps .p-step h3{ font-size: calc(1.275rem + .3vw); }
+@media (min-width:1200px){ .why-card h3,.process-steps .p-step h3{ font-size:1.5rem; } }
+
+/* h3 -> h2 (no skipped level after h1): mirrors the former h3 rules */
+.blog-body h2{ font-size:1.08rem; margin-bottom:8px; }
+.contact-info-card h2{ color:#fff; font-size:1.3rem; }
+.trust-item h2{ margin:0 0 2px; font-size:1rem; }
+.service-card h2{ margin-bottom:8px; font-size:1.3rem; }

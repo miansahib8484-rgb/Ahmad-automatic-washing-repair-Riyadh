@@ -65,38 +65,384 @@
     {
       "source": "/ar/services/dryer-repair",
       "destination": "/ar/services/dryer-repair.html"
+    },
+    {
+      "source": "/en/services/lg-washing-machine-repair-riyadh",
+      "destination": "/en/services/lg-washing-machine-repair-riyadh.html"
+    },
+    {
+      "source": "/ar/services/lg-washing-machine-repair-riyadh",
+      "destination": "/ar/services/lg-washing-machine-repair-riyadh.html"
+    },
+    {
+      "source": "/en/services/samsung-washing-machine-repair-riyadh",
+      "destination": "/en/services/samsung-washing-machine-repair-riyadh.html"
+    },
+    {
+      "source": "/ar/services/samsung-washing-machine-repair-riyadh",
+      "destination": "/ar/services/samsung-washing-machine-repair-riyadh.html"
+    },
+    {
+      "source": "/en/services/front-load-washing-machine-repair-riyadh",
+      "destination": "/en/services/front-load-washing-machine-repair-riyadh.html"
+    },
+    {
+      "source": "/ar/services/front-load-washing-machine-repair-riyadh",
+      "destination": "/ar/services/front-load-washing-machine-repair-riyadh.html"
+    },
+    {
+      "source": "/en/blog/washing-machine-not-spinning-causes-fix",
+      "destination": "/en/blog/washing-machine-not-spinning-causes-fix.html"
+    },
+    {
+      "source": "/ar/blog/washing-machine-not-spinning-causes-fix",
+      "destination": "/ar/blog/washing-machine-not-spinning-causes-fix.html"
+    },
+    {
+      "source": "/en/blog/washing-machine-not-draining-water",
+      "destination": "/en/blog/washing-machine-not-draining-water.html"
+    },
+    {
+      "source": "/ar/blog/washing-machine-not-draining-water",
+      "destination": "/ar/blog/washing-machine-not-draining-water.html"
+    },
+    {
+      "source": "/en/blog/washing-machine-leaking-water-causes",
+      "destination": "/en/blog/washing-machine-leaking-water-causes.html"
+    },
+    {
+      "source": "/ar/blog/washing-machine-leaking-water-causes",
+      "destination": "/ar/blog/washing-machine-leaking-water-causes.html"
+    },
+    {
+      "source": "/en/services/daewoo-washing-machine-repair-riyadh",
+      "destination": "/en/services/daewoo-washing-machine-repair-riyadh.html"
+    },
+    {
+      "source": "/ar/services/daewoo-washing-machine-repair-riyadh",
+      "destination": "/ar/services/daewoo-washing-machine-repair-riyadh.html"
+    },
+    {
+      "source": "/en/services/toshiba-washing-machine-repair-riyadh",
+      "destination": "/en/services/toshiba-washing-machine-repair-riyadh.html"
+    },
+    {
+      "source": "/ar/services/toshiba-washing-machine-repair-riyadh",
+      "destination": "/ar/services/toshiba-washing-machine-repair-riyadh.html"
+    },
+    {
+      "source": "/en/services/washing-machine-repair-all-brands-riyadh",
+      "destination": "/en/services/washing-machine-repair-all-brands-riyadh.html"
+    },
+    {
+      "source": "/ar/services/washing-machine-repair-all-brands-riyadh",
+      "destination": "/ar/services/washing-machine-repair-all-brands-riyadh.html"
+    },
+    {
+      "source": "/en/services/washing-machine-repair-north-riyadh",
+      "destination": "/en/services/washing-machine-repair-north-riyadh.html"
+    },
+    {
+      "source": "/ar/services/washing-machine-repair-north-riyadh",
+      "destination": "/ar/services/washing-machine-repair-north-riyadh.html"
+    },
+    {
+      "source": "/en/services/washing-machine-repair-east-riyadh",
+      "destination": "/en/services/washing-machine-repair-east-riyadh.html"
+    },
+    {
+      "source": "/ar/services/washing-machine-repair-east-riyadh",
+      "destination": "/ar/services/washing-machine-repair-east-riyadh.html"
+    },
+    {
+      "source": "/en/services/washing-machine-repair-south-riyadh",
+      "destination": "/en/services/washing-machine-repair-south-riyadh.html"
+    },
+    {
+      "source": "/ar/services/washing-machine-repair-south-riyadh",
+      "destination": "/ar/services/washing-machine-repair-south-riyadh.html"
+    },
+    {
+      "source": "/en/services/lg-dishwasher-repair-riyadh",
+      "destination": "/en/services/lg-dishwasher-repair-riyadh.html"
+    },
+    {
+      "source": "/ar/services/lg-dishwasher-repair-riyadh",
+      "destination": "/ar/services/lg-dishwasher-repair-riyadh.html"
+    },
+    {
+      "source": "/en/blog/washing-machine-not-working-what-to-check",
+      "destination": "/en/blog/washing-machine-not-working-what-to-check.html"
+    },
+    {
+      "source": "/ar/blog/washing-machine-not-working-what-to-check",
+      "destination": "/ar/blog/washing-machine-not-working-what-to-check.html"
+    },
+    {
+      "source": "/en/blog/how-to-clean-a-washing-machine",
+      "destination": "/en/blog/how-to-clean-a-washing-machine.html"
+    },
+    {
+      "source": "/ar/blog/how-to-clean-a-washing-machine",
+      "destination": "/ar/blog/how-to-clean-a-washing-machine.html"
+    },
+    {
+      "source": "/en/blog/signs-washing-machine-needs-repair",
+      "destination": "/en/blog/signs-washing-machine-needs-repair.html"
+    },
+    {
+      "source": "/ar/blog/signs-washing-machine-needs-repair",
+      "destination": "/ar/blog/signs-washing-machine-needs-repair.html"
+    },
+    {
+      "source": "/en/blog/dishwasher-not-draining-properly",
+      "destination": "/en/blog/dishwasher-not-draining-properly.html"
+    },
+    {
+      "source": "/ar/blog/dishwasher-not-draining-properly",
+      "destination": "/ar/blog/dishwasher-not-draining-properly.html"
+    },
+    {
+      "source": "/en/blog/dryer-maintenance-tips-riyadh",
+      "destination": "/en/blog/dryer-maintenance-tips-riyadh.html"
+    },
+    {
+      "source": "/ar/blog/dryer-maintenance-tips-riyadh",
+      "destination": "/ar/blog/dryer-maintenance-tips-riyadh.html"
+    },
+    {
+      "source": "/en/services/washing-machine-repair-west-riyadh",
+      "destination": "/en/services/washing-machine-repair-west-riyadh.html"
+    },
+    {
+      "source": "/ar/services/washing-machine-repair-west-riyadh",
+      "destination": "/ar/services/washing-machine-repair-west-riyadh.html"
+    },
+    {
+      "source": "/en/blog/lg-washing-machine-error-codes-explained",
+      "destination": "/en/blog/lg-washing-machine-error-codes-explained.html"
+    },
+    {
+      "source": "/ar/blog/lg-washing-machine-error-codes-explained",
+      "destination": "/ar/blog/lg-washing-machine-error-codes-explained.html"
+    },
+    {
+      "source": "/en/blog/samsung-washing-machine-error-codes-explained",
+      "destination": "/en/blog/samsung-washing-machine-error-codes-explained.html"
+    },
+    {
+      "source": "/ar/blog/samsung-washing-machine-error-codes-explained",
+      "destination": "/ar/blog/samsung-washing-machine-error-codes-explained.html"
+    },
+    {
+      "source": "/en/blog/washing-machine-repair-cost-riyadh",
+      "destination": "/en/blog/washing-machine-repair-cost-riyadh.html"
+    },
+    {
+      "source": "/ar/blog/washing-machine-repair-cost-riyadh",
+      "destination": "/ar/blog/washing-machine-repair-cost-riyadh.html"
+    },
+    {
+      "source": "/en/blog/washing-machine-door-wont-open",
+      "destination": "/en/blog/washing-machine-door-wont-open.html"
+    },
+    {
+      "source": "/ar/blog/washing-machine-door-wont-open",
+      "destination": "/ar/blog/washing-machine-door-wont-open.html"
+    },
+    {
+      "source": "/en/blog/washing-machine-loud-noise-vibration",
+      "destination": "/en/blog/washing-machine-loud-noise-vibration.html"
+    },
+    {
+      "source": "/ar/blog/washing-machine-loud-noise-vibration",
+      "destination": "/ar/blog/washing-machine-loud-noise-vibration.html"
+    },
+    {
+      "source": "/en/blog/dryer-not-heating-causes-fix",
+      "destination": "/en/blog/dryer-not-heating-causes-fix.html"
+    },
+    {
+      "source": "/ar/blog/dryer-not-heating-causes-fix",
+      "destination": "/ar/blog/dryer-not-heating-causes-fix.html"
+    },
+    {
+      "source": "/en/blog/dishwasher-not-cleaning-dishes-causes",
+      "destination": "/en/blog/dishwasher-not-cleaning-dishes-causes.html"
+    },
+    {
+      "source": "/ar/blog/dishwasher-not-cleaning-dishes-causes",
+      "destination": "/ar/blog/dishwasher-not-cleaning-dishes-causes.html"
+    },
+    {
+      "source": "/en/tools/washing-machine-error-code-finder",
+      "destination": "/en/tools/washing-machine-error-code-finder.html"
+    },
+    {
+      "source": "/ar/tools/washing-machine-error-code-finder",
+      "destination": "/ar/tools/washing-machine-error-code-finder.html"
+    },
+    {
+      "source": "/en/services/bosch-washing-machine-repair-riyadh",
+      "destination": "/en/services/bosch-washing-machine-repair-riyadh.html"
+    },
+    {
+      "source": "/ar/services/bosch-washing-machine-repair-riyadh",
+      "destination": "/ar/services/bosch-washing-machine-repair-riyadh.html"
+    },
+    {
+      "source": "/en/services/midea-washing-machine-repair-riyadh",
+      "destination": "/en/services/midea-washing-machine-repair-riyadh.html"
+    },
+    {
+      "source": "/ar/services/midea-washing-machine-repair-riyadh",
+      "destination": "/ar/services/midea-washing-machine-repair-riyadh.html"
+    },
+    {
+      "source": "/en/services/washing-machine-repair-al-narjis-riyadh",
+      "destination": "/en/services/washing-machine-repair-al-narjis-riyadh.html"
+    },
+    {
+      "source": "/ar/services/washing-machine-repair-al-narjis-riyadh",
+      "destination": "/ar/services/washing-machine-repair-al-narjis-riyadh.html"
+    },
+    {
+      "source": "/en/services/washing-machine-repair-al-malqa-riyadh",
+      "destination": "/en/services/washing-machine-repair-al-malqa-riyadh.html"
+    },
+    {
+      "source": "/ar/services/washing-machine-repair-al-malqa-riyadh",
+      "destination": "/ar/services/washing-machine-repair-al-malqa-riyadh.html"
+    },
+    {
+      "source": "/en/services/washing-machine-repair-al-yasmin-riyadh",
+      "destination": "/en/services/washing-machine-repair-al-yasmin-riyadh.html"
+    },
+    {
+      "source": "/ar/services/washing-machine-repair-al-yasmin-riyadh",
+      "destination": "/ar/services/washing-machine-repair-al-yasmin-riyadh.html"
+    },
+    {
+      "source": "/en/services/washing-machine-repair-al-arid-riyadh",
+      "destination": "/en/services/washing-machine-repair-al-arid-riyadh.html"
+    },
+    {
+      "source": "/ar/services/washing-machine-repair-al-arid-riyadh",
+      "destination": "/ar/services/washing-machine-repair-al-arid-riyadh.html"
+    },
+    {
+      "source": "/en/blog/washing-machine-not-filling-with-water",
+      "destination": "/en/blog/washing-machine-not-filling-with-water.html"
+    },
+    {
+      "source": "/ar/blog/washing-machine-not-filling-with-water",
+      "destination": "/ar/blog/washing-machine-not-filling-with-water.html"
+    },
+    {
+      "source": "/en/blog/bosch-washing-machine-error-codes-explained",
+      "destination": "/en/blog/bosch-washing-machine-error-codes-explained.html"
+    },
+    {
+      "source": "/ar/blog/bosch-washing-machine-error-codes-explained",
+      "destination": "/ar/blog/bosch-washing-machine-error-codes-explained.html"
+    },
+    {
+      "source": "/en/blog/protect-washing-machine-from-power-surges",
+      "destination": "/en/blog/protect-washing-machine-from-power-surges.html"
+    },
+    {
+      "source": "/ar/blog/protect-washing-machine-from-power-surges",
+      "destination": "/ar/blog/protect-washing-machine-from-power-surges.html"
+    },
+    {
+      "source": "/en/blog/how-to-choose-a-washing-machine-technician",
+      "destination": "/en/blog/how-to-choose-a-washing-machine-technician.html"
+    },
+    {
+      "source": "/ar/blog/how-to-choose-a-washing-machine-technician",
+      "destination": "/ar/blog/how-to-choose-a-washing-machine-technician.html"
+    },
+    {
+      "source": "/en/blog/limescale-in-washing-machines",
+      "destination": "/en/blog/limescale-in-washing-machines.html"
+    },
+    {
+      "source": "/ar/blog/limescale-in-washing-machines",
+      "destination": "/ar/blog/limescale-in-washing-machines.html"
     }
   ],
   "redirects": [
     {
       "source": "/services",
       "destination": "/en/services",
-      "permanent": false
+      "permanent": true
     },
     {
       "source": "/gallery",
       "destination": "/en/gallery",
-      "permanent": false
+      "permanent": true
     },
     {
       "source": "/about",
       "destination": "/en/about",
-      "permanent": false
+      "permanent": true
     },
     {
       "source": "/blog",
       "destination": "/en/blog",
-      "permanent": false
+      "permanent": true
     },
     {
       "source": "/contact",
       "destination": "/en/contact",
-      "permanent": false
+      "permanent": true
     },
     {
       "source": "/services/:slug",
       "destination": "/en/services/:slug",
-      "permanent": false
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/images/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000"
+        }
+      ]
+    },
+    {
+      "source": "/css/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/js/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
     }
   ]
 }
